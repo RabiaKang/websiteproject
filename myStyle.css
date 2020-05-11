@@ -1,0 +1,194 @@
+body {  
+    color: darkslateblue;  
+    background-color: blanchedalmond;
+    font-size:1.2em;
+    font-family:Cambria,Georgia, "Book Antiqua", serif;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+h3 {  
+    color:darkslategray; 
+   
+   
+}
+em {
+    color: darkslategray;
+    font-weight: bolder;
+}
+a:link {  
+    color:darkslategray;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p#buttontest2, p.body1, p.body2, p.body3, p.body4, p.body5 {text-indent: 3em;}
+image {
+        border-image-width: auto;
+}
+h1, h2 {
+   
+    color:darkslategray;
+    width:fit-content;
+   font-style:italic;
+    font-stretch: expanded;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p strong {  
+    color:darkblue;  
+}
+p.conclusion {
+    font-style: oblique;
+    font-weight: 700;
+}
+@media (min-width: 750px){
+ img#blahblahblah {  
+    width:55%; 
+    float: left; 
+    margin-right: 1cm;
+  margin-left: 0.7cm;}
+img#pampampam {
+    width: 40%;
+  float: right;}   
+img#hallelujah {
+    float: right;
+    width: 30%;
+    margin-right: 2cm;
+    margin-top: 1cm;}
+img#peanutbutter, img#evillaugh{
+    float: right;}
+img#evillaugh {
+    margin-left: 7px; }
+img:hover {
+    width: 5in;}
+img#pampampam:hover {
+  width: auto;}
+} 
+
+h2#itbemyname {
+    letter-spacing: 8px;
+}
+ol li {  
+    margin-bottom: 0.3em;  
+}
+p.essayheader {background: #evillaugh; width: 300px;
+     height:100px; padding: 12px;
+    border:5px ridge darkslategray; margin:20px;
+}
+a#mixxmixx:visited {
+color: purple;
+font-style: italic;
+}
+ol.firsttest {
+    line-height: 1.2cm;
+}
+
+ol li:hover {
+    font-size: 1.2em;
+}
+
+h2#itbemyname {
+    border: 3mm darkslategray ridge;
+    background-color: navajowhite;
+}
+img {
+    border:1mm darkslategray solid;
+}
+ul#workscitedlist {
+    font-size: 4mm;
+}
+ul {font-size: 4mm;}
+section {
+    background-color: navajowhite;
+    margin-left: 4%;
+    margin-right: 4%;
+    
+}
+section#topsection{
+    background-image: url(images/twicetwice.jpg);
+    background-size: cover;
+    position: relative;
+}
+p#headerp {background-color: darkslategray;
+height: 30px;
+margin-bottom: 20px;
+}
+div.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+div.nav {
+    text-align: center;
+    height: 20%;
+    line-height: 2em;
+    width: 30%;
+}
+a#navlink {color: darkslategray;}
+
+section#bottomsection {background-color: navajowhite;}
+p#footerp {background-color: blanchedalmond;
+height: 30px;
+}
+div.footerbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+     
+}
+div.foot {
+    text-align: center;
+    width: 30%;
+    font-size: small;
+    background-color: navajowhite;
+    line-height: 2em;
+}
+section#nextback {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+div.nextbackresume1, div.nextbackresume2, div.nextbackessay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+div.nb {
+    text-align: center;
+    width: 30%;
+    line-height: 2em;
+} 
+a#navlinkspecial {font-size: smaller;
+color: darkslategray;}
+a#navlinktwice {
+    background-color: blanchedalmond;
+    
+}
+/* use a media query to ask how big the viewport is */
+@media (max-width:750px) {/*these rules take
+    effect when viewport is small*/
+body{
+    margin-left: 0px;
+    margin-right: 0px; 
+    margin-right: 0%;   }
+    img {float: center; text-align: center;}
+    .centerimage {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+}
+@media screen and (orientation: portrait){
+h1,h2,h3 {text-align: center;}
+}
+section#largeview {
+    position:fixed;
+  }
+section#largeview.dontshow {
+    display:none;
+}
+section#largeview img{width:auto;}

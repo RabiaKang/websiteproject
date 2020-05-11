@@ -1,0 +1,146 @@
+body {  
+    color: darkslategray;  
+    background-color: blanchedalmond;
+    font-size:1.2em;
+    font-family:Cambria,Georgia, "Book Antiqua", serif;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+h3#athome2 {color:darkslategray;}
+ol li {margin-bottom: 0.3em; margin-right: 8cm;}
+h3#athome, h3#athome2 {text-align: center; }
+h2#home {background-color: navajowhite; width:fit-content;
+    border: darkslategray solid}
+
+@media (min-width: 750px){
+    img#nam, img#clock, img#hello {width: 40%;
+    float: right;}
+     
+    img#left {float: left;}
+    img#center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      img#bee {float: left; margin-right:3mm; margin-bottom: 3mm;}
+    img#nam:hover {
+        width: 4in;
+    }
+    img#hello {float:center;}
+    iframe {float: right;margin-left: 1cm;}
+    img#bus {float:left;
+    margin-right: 1cm;
+    margin-bottom: 0.7cm;}
+}
+section {
+   background-color: navajowhite;}
+section#topsection {
+    background-image: url(images/hangul1.jpg);
+    background-size: cover;
+    position: relative;
+}
+p#headerp {background-color: darkslategray;
+height: 30px;
+margin-bottom: 20px;
+}
+div.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+div.nav {
+    text-align: center;
+    height: 20%;
+    line-height: 2em;
+    width: 30%;
+}
+a#navlink {color: darkslategray;}
+a#navlinkhangul {color: navajowhite;
+    background-color: rgba(0,0,0,.5);}
+
+section#bottomsection {background-color: navajowhite;}
+p#footerp {background-color: blanchedalmond;height: 30px}
+div.footerbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+div.foot {
+    
+    justify-content: space-evenly;
+    font-size: small;
+    background-color: navajowhite;
+    line-height: 2em;
+}
+div.nextbackhome, div.nextbackthealphabet, div.nextbackreadingandwriting {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.nb {
+    text-align: center;
+    width: 30%;
+    line-height: 2em;
+} 
+.whiteText {color:white}
+.redText{    color: red;}
+.blueText {color:blue; }
+.purpleText {color:purple}
+.greenText {color:green;}
+.salmon {color:salmon;}
+p#centeralign {text-align: center;}
+p#letters {text-align: center;margin-right: 3in;}
+.hover:hover {font-size: 1.2em;color:red;}
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+table, th, td {
+    border: 1px solid black;
+     
+  }
+  p#centeralign {text-align: center;}
+
+p#buttontest {color:blanchedalmond;}
+
+/* use a media query to ask how big the viewport is */
+@media (max-width:750px) {/*these rules take
+    effect when viewport is small*/
+body{
+    margin-left: 0px;
+    margin-right: 0px; 
+    margin-right: 0%;   }
+    img {float: center; text-align: center;}
+    .centerimage {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    }
+}
+@media screen and (orientation: portrait){
+h1,h2,h3 {text-align: center;}
+iframe {float: center;}
+}
+section#largeview {
+    position:fixed;
+  }
+section#largeview.dontshow {
+    display:none;
+}
+section#largeview img{width:auto;}
+p#culturenote {background: width: 300px;
+     padding: 12px; 
+   border:5px dotted salmon; margin:20px;
