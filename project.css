@@ -14,8 +14,10 @@ h2#home {background-color: navajowhite; width:fit-content;
 
 @media (min-width: 750px){
     img#nam, img#clock, img#hello {width: 40%;
-    float: right;}
-     
+    float: right; margin-left: 4mm;}
+     img#clock2 {width: 30%;
+        float: right; margin-left: 4mm;
+     }
     img#left {float: left;}
     img#center {
         display: block;
@@ -93,6 +95,7 @@ div.nb {
 .blueText {color:blue; }
 .purpleText {color:purple}
 .greenText {color:green;}
+.orangeText {color:darkorange;}
 .salmon {color:salmon;}
 p#centeralign {text-align: center;}
 p#letters {text-align: center;margin-right: 3in;}
@@ -129,6 +132,10 @@ body{
   margin-right: auto;
   width: 50%;
     }
+    img {;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;}
 }
 @media screen and (orientation: portrait){
 h1,h2,h3 {text-align: center;}
